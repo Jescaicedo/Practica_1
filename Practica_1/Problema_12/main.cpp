@@ -32,7 +32,7 @@ int main()
         }
 
     }
-    cout<<fa<<endl;
+    cout<<"El mayor factor primo de "<<N<<" es "<<fa<<endl;
 
 
 }

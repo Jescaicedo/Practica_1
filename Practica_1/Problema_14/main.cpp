@@ -14,13 +14,13 @@ int main()
                 aux/=10;
                 sf=(sf*10)+r;
             }
-        if (sf==resul){
-            if (resul>mp){
-                mp=resul;
-                mpn=pn;
-                spn=sn;
+            if (sf==resul){
+                if (resul>mp){
+                    mp=resul;
+                    mpn=pn;
+                    spn=sn;
+                }
             }
-        }
         sf=0;
         sn+=1;
         }
